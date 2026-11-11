@@ -10,3 +10,14 @@ investment = st.number_input(
 )
 
 st.write("Investment Amount:", investment)
+annual_return = st.number_input(
+    "Expected Annual Return (%)",
+    min_value=1.0,
+    value=12.0
+)
+
+years = st.number_input(
+    "Investment Period (Years)",
+    min_value=1,
+    value=10
+)
